@@ -1,5 +1,15 @@
+.. manually constructed -- removed several low-level packages
+
 konlp package
 =============
+
+:mod:`nltk` Package
+-------------------
+
+.. automodule:: nltk.__init__
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 Subpackages
 -----------
@@ -27,11 +37,3 @@ Subpackages
     konlp.test
     konlp.tokenize
     konlp.translate
-
-Module contents
----------------
-
-.. automodule:: konlp
-    :members:
-    :undoc-members:
-    :show-inheritance:
