@@ -6,7 +6,7 @@ konlp package
 :mod:`konlp` Package
 -------------------
 
-.. automodule:: nltk.__init__
+.. automodule:: konlp.__init__
     :members:
     :undoc-members:
     :show-inheritance:
