@@ -3,7 +3,7 @@
 konlp package
 =============
 
-:mod:`nltk` Package
+:mod:`konlp` Package
 -------------------
 
 .. automodule:: nltk.__init__
