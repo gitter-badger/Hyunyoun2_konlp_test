@@ -10,19 +10,19 @@ install:
   - sudo apt-get install python3-pip
   - pip3 install pytest-cov==2.4.0
   - pip3 install coveralls==1.1
-
+  - pip3 install codecov
+  
 script:
   - python3 setup.py install
   - coverage run --source=konlp -m py.test
 
 after_success:
   - coveralls
+  - codecov
 
 notifications:
   email:
     recipients:
       - hyun02.engineer@gmail.com
-      - ngh3053@gmail.com
-      - cyh905@gmail.com
     on_success: never
     on_failure: always
