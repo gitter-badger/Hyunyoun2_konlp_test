@@ -1,4 +1,5 @@
-sudo: false
+#dist: trusty
+sudo: required
 language: python
 python:
   - "3.5"
@@ -12,7 +13,8 @@ install:
 script:
   - python3 setup.py install
   - coverage run --source=konlp -m py.test
-
+  - coverage report -m
+  
 after_success:
   - coveralls
   - bash <(curl -s https://codecov.io/bash)
