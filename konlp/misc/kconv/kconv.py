@@ -135,7 +135,7 @@ def scan(file_dir):
         file_dir (str): 인코딩을 탐지할 파일 경로
 
     Returns:
-        int: 인코딩 타입
+           int: 인코딩 타입
     """
     if not os.path.exists(file_dir):
         raise FileNotFoundError('Can not find file in the path : {}'.format(file_dir))
