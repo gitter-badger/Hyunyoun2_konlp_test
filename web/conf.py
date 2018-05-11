@@ -61,7 +61,7 @@ extensions = [
      'sphinx.ext.autodoc',
 #     'sphinx.ext.doctest', # later on, we have to change this to automatically check
 #     'sphinx.ext.intersphinx',
-#     'sphinx.ext.todo',
+     'sphinx.ext.todo',
      'sphinx.ext.coverage',
 #     'sphinx.ext.imgmath',
      'sphinx.ext.mathjax', 
